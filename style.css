@@ -3,7 +3,6 @@ html {
 
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
     
 }
@@ -15,15 +14,12 @@ body {
 }
 
 ul { margin: 0px;
-    font-family: "Fredoka One", sans-serif;
     font-family: "Times New Roman", sans-serif;
     width: 16%;
 
 }
  
 body > header {
-    background-color: orange;
-    color: white;
     background-color: aqua;
     color: grey;
     display: flex;
@@ -48,7 +44,6 @@ body > header > nav ul {
 }
 
 body > main article {
-    width: 60%;
     width: 70;
     margin: auto;
     padding: 6rem;
@@ -72,18 +67,14 @@ form {
 }
 
 .navbutton {
-    color: white;
     color:gray;
     text-decoration: none;
     padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
     border: 10px solid grey;
     border-radius: 20%;
 }
 
 body > footer {
-    background-color: orange;
     background-color: aqua;
     display: flex;
 
@@ -103,15 +94,12 @@ img {
 }
 
 #footer-ul > div > li {
-    margin-left: 12px;
     margin-left: 11px;
     justify-content: space-between;
     
 }
 #footer-ul > div > li > a {
     text-decoration: none;
-    color: white;
-}    color: grey;
     color: grey;
     display: flex;
 
