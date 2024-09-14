@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentloaded" , () => {
+document.addEventListener("DOMContentloaded" , () => [
 
 const images = document.querySelectorAll("img");
 
@@ -9,5 +10,9 @@ for(const image of images){
     image.src = data.message
     image.width = 100;
     image.height = 100;
+})
+
 }
 }) 
+
+)]
